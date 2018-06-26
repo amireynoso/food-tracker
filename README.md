@@ -1,2 +1,3 @@
-# food-tracker
+# 🍎🍦🥑🍕 Food Tracker
+
 Daily food tracker
