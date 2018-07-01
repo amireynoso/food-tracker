@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Back from '../../components/Back';
 
 const meals = ['Breakfast', 'Lunch', 'Snack', 'Dinner'];
 
@@ -8,5 +9,10 @@ const Title = styled.h2`
 `;
 
 export default function Day() {
-  return meals.map(meal => <Title>{meal}</Title>);
+  return (
+    <div>
+      <Back />
+      {meals.map(meal => <Title key={meal}>{meal}</Title>)}
+    </div>
+  );
 }

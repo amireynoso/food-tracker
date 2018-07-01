@@ -1,0 +1,16 @@
+.DayPicker {
+  display: block;
+}
+.DayPicker-Month {
+  width: 100%;
+}
+.DayPicker-Caption {
+  text-align: center;
+}
+.DayPicker-NavButton--prev {
+  left: 1.5rem;
+}
+.DayPicker-Weekday,
+.DayPicker-Caption {
+  text-transform: capitalize;
+}
